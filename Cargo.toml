@@ -8,7 +8,7 @@ repository="https://github.com/LiGoldragon/signal-logos"
 description="Typed wire contract for the Logos projection daemon"
 [dependencies]
 rkyv={version="0.8",features=["bytecheck"]}
-signal-sema-storage={git="https://github.com/LiGoldragon/signal-sema-storage.git",rev="31ab48608a3c2eab0733dcb16a3351251a70789d"}
+signal-sema-storage={git="https://github.com/LiGoldragon/signal-sema-storage.git",rev="4fa7256fe5bfe6d4d85b3acceb028d3ae529f6ef"}
 thiserror="2"
 [lints.rust]
 unsafe_code="forbid"
