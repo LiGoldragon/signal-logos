@@ -1,6 +1,6 @@
 [package]
 name="signal-logos"
-version="0.1.0"
+version="0.2.0"
 edition="2024"
 rust-version="1.89"
 license="MIT OR Apache-2.0"
@@ -8,7 +8,7 @@ repository="https://github.com/LiGoldragon/signal-logos"
 description="Typed wire contract for the Logos projection daemon"
 [dependencies]
 rkyv={version="0.8",features=["bytecheck"]}
-signal-sema-storage={git="https://github.com/LiGoldragon/signal-sema-storage.git",rev="31ab48608a3c2eab0733dcb16a3351251a70789d"}
+signal-sema-storage={git="https://github.com/LiGoldragon/signal-sema-storage.git",rev="3f64b1ff99318ac43908fab14dc30aa3b375c649"}
 thiserror="2"
 [lints.rust]
 unsafe_code="forbid"
